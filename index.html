@@ -1,18 +1,31 @@
 <!doctype html>
 <html>
   <head>
-    <title>Our Funky HTML Page</title>
-    <meta name="description" content="Our first page">
-    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+    <meta name="description" content="Homepage">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Welcome to my HTML page!</h1>
-    <p>My name is Miles Opferkuch.</p>
-    <a href="https://github.com/milesopferkuch">My Github</a>
-    <h2>Projects</h2>
-    <dl>
-      <dt><a href="https://www.github.com/orebitt">Weather app</a></dt>
-        <dd>Tells you the weather!</dd>
+    <h1 class="introheader">Welcome to my HTML page!</h1>
+    <p id="introparagraph">My name is Miles Opferkuch.</p>
+    <br>
+    <h2 class="introheader">Projects</h2>
+    <dl class="projectlist">
+      <dt><a href="https://github.com/MilesOpferkuch/weather-app">Weather app</a></dt>
+        <dd class="projectdescription">Tells you the weather!</dd>
     </dl>
+    <hr>
+    <footer>
+    <div class="socials">
+      <a class="sociallink" href="https://www.github.com/MilesOpferkuch">
+        <img class="sociallink" src="github-mark.svg"/>
+        <h4>GitHub</h4>
+      </a>
+      <a class="sociallink" href="https://instagram.com/milesophoto/">
+        <img class="sociallink" src="instagram_bw.svg"/>
+        <h4>@milesophoto</h4>
+      </a>
+    </div>
+  </footer>
   </body>
 </html>
